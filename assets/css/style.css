@@ -93,12 +93,43 @@ header{
  @media screen and (max-width:1150px){
   .nav__menu{
     position: fixed;
-    top: 0;
+    /* top: 0; */
+    top: -120%;
     left: 0;
     background-color: var(--body-color);
     width: 100%;
     padding-block:4rem ;
     box-shadow: 0 8px 16px hsla(166, 85%, 8%, 0.3);
-    transition: top 0.4s;
+    transition: top 0.5s;
   }
+ }
+
+ .nav__list{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 2rem;
+ }
+
+ .nav__link{
+  color: var(--white-color);
+  font: var(--font-medium) var(--h1-font-size) var(--second-font);
+  text-decoration: none;
+  line-height: 110%;
+  transition: var(--body-color)0.4s;
+ }
+
+ .nav__link:hover{
+  color: var(--first-color);
+ }
+
+ .nav__close{
+  position:absolute;
+  top: 1rem;
+  right: 1rem;
+ }
+
+ /* SHOW MENU */
+ .show-menu{
+  top: 0%;
  }
