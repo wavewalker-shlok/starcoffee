@@ -59,3 +59,20 @@ function showheader (){
 
 }
 window.addEventListener('scroll' , showheader);
+
+
+/*========swiperPopular---========*/ 
+ const swiperPopular = new Swiper('.popular__swiper' ,{
+  loop:true,
+  grabCursor:true,
+  spaceBetween:32,
+  slidesPerView:'auto',
+  centeredSlides:'auto',
+
+  breakpoints:{
+    1150:{
+      spaceBetween:80,
+    }
+  }
+
+ })
