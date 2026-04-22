@@ -195,6 +195,11 @@ header{
   top: 0%;
  }
 
+ /* ====ADD SHADOW HEADER===== */
+ .shadow-header{
+  box-shadow: 0 4px 16px hsla(166 , 85% , 8% , 0.4);
+ }
+
  /* =============================HOME=================== */
 
  .home__container{
