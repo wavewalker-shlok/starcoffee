@@ -67,7 +67,7 @@ window.addEventListener('scroll' , showheader);
   grabCursor:true,
   spaceBetween:32,
   slidesPerView:'auto',
-  centeredSlides:'auto',
+  centeredSlides:true,
 
   breakpoints:{
     1150:{
